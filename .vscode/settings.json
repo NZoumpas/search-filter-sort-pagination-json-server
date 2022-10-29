@@ -1,0 +1,24 @@
+{
+
+    "remove-empty-lines.allowedNumberOfEmptyLines": 1,// allow 0 in all files
+"[markdown]": {
+  "remove-empty-lines.allowedNumberOfEmptyLines": 1,// allow 1 in markdown files
+},
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+},
+"[javascript][javascriptreact][typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+"[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+},
+"[css][scss][less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+},
+"window.zoomLevel": 2,
+"files.autoSave": "onFocusChange"
+
+
+}
